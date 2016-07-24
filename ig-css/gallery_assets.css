@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'terminal_dosisextralight';
+    src: url('/ig-assets/terminaldosis-extralight.eot');
+    src: url('/ig-assets/terminaldosis-extralight.eot?#iefix') format('embedded-opentype'),
+         url('/ig-assets/terminaldosis-extralight.woff') format('woff'),
+         url('/ig-assets/terminaldosis-extralight.ttf') format('truetype'),
+         url('/ig-assets/terminaldosis-extralight.svg#terminal_dosisextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato_lightlight';
+    src: url('/ig-assets/latolight-webfont.eot');
+    src: url('/ig-assets/latolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ig-assets/latolight-webfont.woff') format('woff'),
+         url('/ig-assets/latolight-webfont.ttf') format('truetype'),
+         url('/ig-assets/latolight-webfont.svg#lato_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('/ig-assets/dosisregular.woff-webfont.eot');
+    src: url('/ig-assets/dosisregular.woff-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ig-assets/dosisregular.woff-webfont.woff') format('woff'),
+         url('/ig-assets/dosisregular.woff-webfont.ttf') format('truetype'),
+         url('/ig-assets/dosisregular.woff-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,64 @@
+.linkbar {
+        width:100%;
+        background-image: url(/ig-images/minbr.jpg);
+        background-repeat: repeat-x;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        text-align: justify;
+        background-color: #FFFFFF;
+        line-height: 20px;
+}
+
+div.c2 {position:relative; background-color:#FFFFFF; width:328px; background:url(/ig-images/backgr.png); background-repeat:repeat-x; right:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:right; clear:right;}
+ div.c2a {position:relative; background-color:#FFFFFF; width:328px; background:url(/ig-images/backgr1.png); background-repeat:repeat-x; right:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:right; clear:right;}
+ div.c2b {position:relative; background-color:#FFFFFF; width:328px; background:url(/ig-images/backgr2.png); background-repeat:repeat-x; right:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:right; clear:right;}
+ div.c2c {position:relative; background-color:#FFFFFF; width:328px; background:url(/ig-images/backgr3.png); background-repeat:repeat-x; right:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:right; clear:right;}
+ div.c2d {position:relative; background-color:#FFFFFF; width:328px; background:url(/ig-images/backgr4.png); background-repeat:repeat-x; right:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:right; clear:right;}
+
+.topbox   { margin-top:22px; left:20px; float:left; clear:left; }
+.maintexta { font-size:18px; font-family:terminal_dosisextralight, sans-serif; }
+.maintextb { font-size:32px; font-family:lato_lightlight, sans-serif; }
+
+.outer {
+position:absolute;
+width:804px; 
+height:auto; 
+left:0px; 
+}
+
+.image_header_bar {
+position:absolute;
+width:800px; 
+height:70px; 
+top:118px; 
+left:131px; 
+background:#50A1DC;
+font-family: dosisregular, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.image_header_text {
+position:relative;
+font-size:18px;
+top:4x;
+left:4px;
+}
+
+.image_holder {
+position: relative; 
+width: 150px;
+height:150px;
+left: 24px; 
+top: 2px; 
+border-style: solid; 
+border-color:#999999; 
+border-width: 1px;
+}
+
+.image_tx {
+width:200px; 
+height:180px; 
+background-color:#ffffff; 
+border-style:solid; 
+border-width:1px;
+}

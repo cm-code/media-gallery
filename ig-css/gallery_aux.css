@@ -1,0 +1,36 @@
+ div.c1 {position:relative; background-color:#FFFFFF; width:328px; background:url(); background-repeat:repeat-x; left:0px; top:0px; height:42px; line-height:1px; z-index:3; visibility: visible; float:left; clear:left;}
+
+ div.c3 {position:absolute; z-index:1; left:0px; top:0px; height:42px; width:100%; min-width:1024px;}
+
+ div.c4a {position:relative; top:0px; left:20px; clear:left; float:left; width:480px;}
+ div.c4b {position:relative; top:186px; left:801px; height:280px; clear:left; float:left; width:42px;}		
+
+ div.c5 {background-color: #000000; float: right; height: 64px; left: 0px; position: absolute; top: 229px; width: 500px; z-index: 4}
+ div.c5:hover  { float: right; height: 64px; left: 0px; position: absolute; top: 229px; width: 500px; z-index:3; background-color:#00220F;}
+ 
+ div.c6 {background-color: #000000; float: right; height: 64px; left: 0px; position: absolute; top: 294px; width: 500px; z-index: 4}
+ div.c6:hover  { float: right; height: 64px; left: 0px; position: absolute; top: 294px; width: 500px; z-index:3; background-color:#00220F;}
+ 
+ div.c7 {background-color: #000000; float: right; height: 64px; left: 0px; position: absolute; top: 359px; width: 500px; z-index: 4}
+ div.c7:hover  { float: right; height: 64px; left: 0px; position: absolute; top: 359px; width: 500px; z-index:3; background-color:#00220F;}
+ 
+ img.c8 {position:absolute; top:424px; left:472px; z-index:5;}
+ img.c8a {position:absolute; top:186px; left:472px; z-index:5;}
+ 
+ div.c9 {position:absolute; left:109px;}
+
+ div.imagesection {z-index:1; position:relative; top:70px; left:0px; width:600px; height:auto; display:inline; }
+
+ div.highlight_grp1 {};
+ div.highlight_grp1:hover {};
+
+ div.highlight_grp2 {};
+ div.highlight_grp2:hover {};
+
+ div.highlight_grp3 {};
+ div.highlight_grp3 {};
+
+ div.highlight_grp4 {};
+ div.highlight_grp4 {};
+
+

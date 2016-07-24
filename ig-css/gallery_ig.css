@@ -1,0 +1,56 @@
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.wrapper {
+
+}
+
+.buffer {
+height:100%;
+}
+
+ img { border: 0; }
+
+
+.blackcanvas {
+	background-image: url();
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#000000;
+	color:#FFFFFF;
+	position:absolute;
+	line-height:64px;
+	height:64px;
+	width:400px;
+}
+.horgradbw {
+line-height:64px;
+height:64px;
+}
+
+a:link {
+	color: #0066CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #0066CC;
+	text-decoration: none;
+}
+
+#background_content {
+bottom:0px;
+width:auto;
+height:1280px;
+background:url(ig-images/minbr.jpg) repeat-x;
+z-index:1;
+display:block;
+}
+
+#footer {
+
+}
