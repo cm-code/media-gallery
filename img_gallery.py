@@ -14,7 +14,6 @@ from PIL import Image, ExifTags
 import fnmatch, re
 import argparse as ap
 import os,sys
-import glob
 
 
 def index(req):
