@@ -168,11 +168,11 @@ def list_dir(req,s_subdir):
 
 	#list of images, sorted
 	# Remove bad characters from user input
-	#l_bad_chars = []
-	#_bad_metachars(l_bad_chars)
+	l_bad_chars = []
+	_bad_metachars(l_bad_chars)
 	#req.write(''.join(l_bad_chars)) #enable to see replaced chars
-	#for x, d_tuple in enumerate(l_bad_chars):
-	#	s_subdir = s_subdir.replace(l_bad_chars[x],'')
+	for x, d_tuple in enumerate(l_bad_chars):
+		s_subdir = s_subdir.replace(l_bad_chars[x],'')
 	
 	# Gallery name
 	s_gallery_name = s_subdir #.replace('/','',1)
@@ -252,7 +252,7 @@ def list_dir(req,s_subdir):
 	# main list loop
 	#
 
- 	l_html_list.append('<!-- Script Invoked: %(s_script)s -->' % locals() )
+ 	# l_html_list.append('<!-- Script Invoked: %(s_script)s -->' % locals() ) # Debug Use
 	
 	while i_zf * i_y + i_zi <= i_x:
 		i_pos = i_zf * i_y + i_zi - 1 # our position in the list
