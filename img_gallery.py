@@ -13,7 +13,7 @@ from mod_python import *
 from PIL import Image, ExifTags
 import fnmatch, re
 import argparse as ap
-import os
+import os,sys
 import glob
 
 
@@ -121,6 +121,7 @@ def _do_truepath(rt_file):
 	tl_path = os.path.split(t_path)
  	return tl_path	
 
+
 def list_dir(req,s_subdir):
   	
         s_conf = ap.Namespace()
@@ -128,9 +129,9 @@ def list_dir(req,s_subdir):
 	# actual path 
         l_path = _do_truepath(__file__)
         s_path = l_path[0]
-	s_script = "img_gallery.py" # os.path.basename(__file__)
 	# script name
-	
+	s_script = str(os.path.basename(__file__)) 
+
 	# filename
 	s_file = "/img_gallery.conf"
 
@@ -145,12 +146,12 @@ def list_dir(req,s_subdir):
                         setattr(s_conf,s_settings[0],s_settings[1])
 
 	# Configure from file.  If missing, error out.	
-	try:
-		s_basepath = s_conf.basepath
- 		s_webpath = s_conf.webpath
-	except:
-		_error_msg(req)
-		return
+	#try:
+	s_basepath = s_conf.basepath
+ 	s_webpath = s_conf.webpath
+	#except:
+	#	_error_msg(req)
+	#	return
 	
 	#root directory test	
         if s_subdir == "/":
@@ -252,6 +253,7 @@ def list_dir(req,s_subdir):
 	# main list loop
 	#
 
+ 	l_html_list.append('<!-- Script Invoked: %(s_script)s -->' % locals() )
 	
 	while i_zf * i_y + i_zi <= i_x:
 		i_pos = i_zf * i_y + i_zi - 1 # our position in the list
