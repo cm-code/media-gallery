@@ -7,8 +7,8 @@ python >= 2.7.x
 argparse >= 1.2.x   
 mod_python >= 3.4.3  
 
-A modern release of: 
-Python Imaging Library  
+A modern release of:  
+Python Imaging Library   
 ImageMagick that supports JPEG2000 & Fuji RAW    
 
 # Configuration:
